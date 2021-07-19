@@ -1,12 +1,15 @@
-version: "3"
+# This file is smaple.
+version: '3.9'
 
 services:
-  main:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  miranda:
+    image: insell824/miranda
     tty: true
     stdin_open: true
     container_name: miranda
     volumes:
       - ./:/temp
+
+# volumes:
+# ./ means current directory on your PC(HOST OS)
+# /temp means working directory on Ubuntu Linux(GUEST OS). 
