@@ -69,6 +69,7 @@ $ docker-compose up -d
 
 # Attach to Ubuntu Linux.
 $ docker exec -it miranda /bin/bash
+or $ docker-compose exec miranda /bin/bash
 # In virtual ubuntu
 # At /temp
 # Copy exsample files!
@@ -92,6 +93,7 @@ $ docker-compose up -d
 # Linux is running...
 # Attach to Ubuntu Linux.
 $ docker exec -it miranda /bin/bash
+or $ docker-compose exec miranda /bin/bash
 # You can use "miranda" command!
 # Put fasta files on your host PC's directory. (Using Explorer, Finder...)
 # ex)
